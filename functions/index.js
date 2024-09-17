@@ -12,8 +12,7 @@ app.use(express.json());
 // Middleware to check the device API key
 const validateApiKey = (req, res, next) => {
   const authHeader = req.headers.authorization;
-  const apiKey =
-    authHeader && authHeader.split(" ")[1];
+  const apiKey = authHeader && authHeader.split(" ")[1];
 
   if (apiKey === functions.config().api.device_key) {
     next();
@@ -24,18 +23,18 @@ const validateApiKey = (req, res, next) => {
 
 // Endpoint to upload data
 app.post("/upload_data", validateApiKey, async (req, res) => {
-    const data = req.body;
-    const userId = data.user_id;
-  
-    console.log("Received data:", data);
-  
-    if (!userId) {
-      console.log("User ID is missing.");
-      return res.status(400).send("User ID is required");
-    }
-  
-    try {
-      await admin
+  const data = req.body;
+  const userId = data.user_id;
+
+  console.log("Received data:", data);
+
+  if (!userId) {
+    console.log("User ID is missing.");
+    return res.status(400).send("User ID is required");
+  }
+
+  try {
+    await admin
         .firestore()
         .collection("users")
         .doc(userId)
@@ -50,13 +49,13 @@ app.post("/upload_data", validateApiKey, async (req, res) => {
           score: data.score,
           timestamp: admin.firestore.FieldValue.serverTimestamp(),
         });
-      console.log("Data uploaded successfully for user:", userId);
-      res.status(200).send("Data uploaded successfully");
-    } catch (error) {
-      console.error("Error uploading data:", error);
-      res.status(500).send("Internal Server Error");
-    }
-  });
-  
+
+    console.log("Data uploaded successfully for user:", userId);
+    res.status(200).send("Data uploaded successfully");
+  } catch (error) {
+    console.error("Error uploading data:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
 
 exports.api = functions.https.onRequest(app);
