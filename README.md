@@ -4,16 +4,12 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Why We Chose These Technologies](#why-we-chose-these-technologies)
 - [How the Components Work Together](#how-the-components-work-together)
 - [Video Demo](#video-demo)
 
-## Introduction
-
-This project is a reaction time game developed on a Raspberry Pi Pico W. The game measures a user's reaction time to a flashing LED and uploads the results to the cloud. A companion website allows users to sign up or log in to view their scores and track their performance over time.
 
 ## Project Overview
 
