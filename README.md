@@ -7,9 +7,9 @@
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
-- [Why I Chose These Technologies](#why-i-chose-these-technologies)
+- [Why We Chose These Technologies](#why-we-chose-these-technologies)
 - [How the Components Work Together](#how-the-components-work-together)
-- [Video Demo]
+- [Video Demo](#video demo)
 
 ## Introduction
 
