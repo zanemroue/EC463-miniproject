@@ -137,3 +137,6 @@ By choosing Node.js and Express.js for the API endpoint, the project leverages a
 
 ## Video Demo
   https://youtu.be/j6uMxeUJoNE
+
+
+ChatGPT was used to refractor and correct grammar for my README.md file. Occasional chatGPT and outside sources was used to debug and explain concepts but NOT to generate code**
