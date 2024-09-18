@@ -28,3 +28,6 @@ Other IDE can be used, including Visual Studio Code or
 
 * [Pico WH pinout diagram](https://datasheets.raspberrypi.com/picow/PicoW-A4-Pinout.pdf) shows the connections to analog and digital IO.
 * Getting Started with Pi Pico [book](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
+
+
+https://youtu.be/j6uMxeUJoNE
