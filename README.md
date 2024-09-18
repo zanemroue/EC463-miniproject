@@ -139,4 +139,4 @@ By choosing Node.js and Express.js for the API endpoint, the project leverages a
   https://youtu.be/j6uMxeUJoNE
 
 
-ChatGPT was used to refractor and correct grammar for my README.md file. Occasional chatGPT and outside sources was used to debug and explain concepts but NOT to generate code**
+<sub><sup>ChatGPT was used to **refractor** and **correct grammar** for my README.md file. Occasional use of ChatGPT and outside sources to **debug** and **explain** concepts but **NOT** to generate code**</sup></sub>
