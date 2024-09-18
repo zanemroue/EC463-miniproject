@@ -9,7 +9,7 @@
 - [Technologies Used](#technologies-used)
 - [Why We Chose These Technologies](#why-we-chose-these-technologies)
 - [How the Components Work Together](#how-the-components-work-together)
-- [Video Demo](#video demo)
+- [Video Demo](#video-demo)
 
 ## Introduction
 
