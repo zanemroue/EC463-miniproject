@@ -1,7 +1,12 @@
-exercise01:
+## exercise01:
 
-The max_bright value we found was around 50000, while the min_bright value when the sensor was covered with a hand was around 600
-exercise02:
+  - The max_bright value we found was around 50000, while the min_bright value when the sensor was covered with a hand was around 600
 
-We decided to play the Star Wars Darth Vader theme song
-exercise03:
+## exercise02:
+
+  - We decided to play the Star Wars Darth Vader theme song
+
+## exercise03:
+
+  - The documentation for this exercise is found in the README.md
+
